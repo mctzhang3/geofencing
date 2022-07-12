@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/geoFencingFragment">
+
+    <fragment
+        android:id="@+id/geoFencingFragment"
+        android:name="com.mzhang.geofencingdemo.alert.GeoFencingFragment"
+        android:label="fragment_geo_fencing"
+        tools:layout="@layout/fragment_geo_fencing" />
+</navigation>
